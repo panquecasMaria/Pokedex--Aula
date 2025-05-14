@@ -1,1 +1,1 @@
---Pokedex-- feita em sala de aula
+Pokedex
