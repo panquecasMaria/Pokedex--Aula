@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #d8b4f8, #f3e8ff); /* tons de lilás */
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff0ff;
+    border: 3px solid #9b59b6;
+    border-radius: 20px;
+    box-shadow: 0 0 25px #bb6bd9;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #6c3483;
+}
+
+.imagem-pokemom {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px #7d3c98;
+    object-fit: contain;
+    border: 2px solid #9b59b6;
+}
+
+.info-pokemon {
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+.info-pokemon p {
+    margin: 6px 0;
+}
+
+.fita-tipo {
+    display: inline-block;
+    background-color: #a569bd;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 16px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.area-buscar {
+    margin-top: 20px;
+}
+
+.botao_buscar input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #9b59b6;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #fef6ff;
+    color: #333;
+}
+
+.botao_buscar button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: #9b59b6;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botao_buscar button:hover {
+    background-color: #884ea0;
+    transform: scale(1.05);
+}
